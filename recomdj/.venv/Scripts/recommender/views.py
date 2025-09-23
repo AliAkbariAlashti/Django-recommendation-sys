@@ -33,4 +33,3 @@ def newuser(request):
             return HttpResponse("Success")
         
     return render(request, 'NewUserForm.html', {'form' : form})
-
